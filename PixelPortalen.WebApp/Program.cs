@@ -24,8 +24,8 @@ builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSe
 
 
 
-//builder.Services.AddHttpClient("api", client => client.BaseAddress = new Uri("https://localhost:7181"));
-builder.Services.AddHttpClient("api", client => client.BaseAddress = new Uri("https://pixelapi123.azurewebsites.net"));
+//builder.Services.AddHttpClient("api", client => client.BaseAddress = new Uri(""));
+builder.Services.AddHttpClient("api", client => client.BaseAddress = new Uri(""));
 
 
 

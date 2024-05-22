@@ -16,7 +16,7 @@ public class SwishService : ISwishService<SwishEntity>
     public async Task<HttpContent> GetQR(SwishEntity SwishEntity)
     {
         var response =
-            await _httpClient.PostAsJsonAsync("https://mpc.getswish.net/qrg-swish/api/v1/prefilled", SwishEntity);
+            await _httpClient.PostAsJsonAsync("", SwishEntity);
         if (!response.IsSuccessStatusCode)
         {
             Console.WriteLine("Gick inte");

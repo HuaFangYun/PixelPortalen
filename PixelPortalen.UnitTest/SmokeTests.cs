@@ -11,7 +11,7 @@ public class SmokeTests
     {
         using (var client = new HttpClient())
         {
-            var response = await client.GetAsync("https://pixelapi123.azurewebsites.net/api/product");
+            var response = await client.GetAsync("");
             response.EnsureSuccessStatusCode();
             Assert.Equal(System.Net.HttpStatusCode.OK, response.StatusCode);
         }

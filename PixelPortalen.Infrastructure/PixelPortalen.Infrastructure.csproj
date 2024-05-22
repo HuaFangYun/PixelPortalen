@@ -17,4 +17,9 @@
     <ProjectReference Include="..\PixelPortalen.Application\PixelPortalen.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DataAccess\Auth\Migrations\" />
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>
