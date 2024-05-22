@@ -1,20 +1,19 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+<picture><img src="https://github.com/anders0b/PixelPortalen/blob/main/PixelPortalen.WebApp/wwwroot/Resources/new-logo.svg" width="500"></picture
+## About
+Our group project from the course Agile Development, where we were tasked with creating an online store for a fictional local game store. During two sprints we achieved the following features:
+- Databases for saving products and events.
+- Fully functioning API built with FastEndpoints.
+- Presentation layer built with Blazor
+- Account handling functionality with Blazor Identity UI
+- Functioning site UI built with MudBlazor.
+## Background
+Our group was tasked with the creation of an online presence for a local fictional game store, located in the borough of Gamlestaden in Gothenburg. Together with our project leader we worked according to SCRUM to plan and visualize the project.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Timeline
+Our project lasted two full sprints, one sprint was one week long. Before the first sprint we had a week of planning and getting to know the group.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Team
+- Two .NET-developer students, myself and a classmate
+- Three .NET Cloud-developer students
+- Two Tester students
+- One project lead, also acting as SCRUM Master.
